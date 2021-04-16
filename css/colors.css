@@ -1,0 +1,20 @@
+body.theme-light, body.theme-light *
+{
+  --color-border-primary: #444444;
+  --color-font-primary: #444444;
+  --color-secondary: #db4693;
+  --color-background: #ffffff
+}
+
+body.theme-dark, body.theme-dark *
+{
+  --color-border-primary: #c0c0c0;
+  --color-font-primary: #ffffff;
+  --color-secondary:#22b2e2;
+  --color-background: #444444;
+}
+
+body.theme-dark .fa-stack > .fa-inverse::before
+{
+  color: var(--color-background);
+}

@@ -1,0 +1,52 @@
+.profile
+{
+  padding-bottom: 10px;
+  position: relative;
+}
+
+
+.circle-200
+{
+  width: 200px;
+  height: 200px;
+  position: relative;
+  flex: 1;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 5px solid var(--color-border-primary);
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.circle-200 img
+{
+  max-height: 100%;
+  max-width: 100%;
+  margin: auto;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  right: 0;
+  position: absolute;
+}
+
+
+.profile-name
+{
+  padding-bottom: 30px;
+}
+.profile-name h1
+{
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.profile-details p
+{
+  padding-bottom: 20px;
+}
+
+.profile-social p
+{
+  padding-bottom: 15px;
+}
