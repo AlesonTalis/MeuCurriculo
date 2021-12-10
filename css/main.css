@@ -6,7 +6,7 @@ body
 {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 12px;
+  /* font-size: 12px; */
   color: var(--color-font-primary);
   background: var(--color-background);
 }
@@ -24,6 +24,7 @@ body
   background-image: var(--background-image);
   background-position: center;
   background-repeat: repeat;
+  font-size: 15px;
 }
 
 a.nolink
@@ -136,6 +137,7 @@ a
     max-height: calc(100% - 60px);
     position: absolute;
     top: 0;right: 0;left: 0;bottom: 0;
+    font-size: 15px;
   }
   .space
   {

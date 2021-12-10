@@ -12,6 +12,10 @@ if (!empty($aboutme))
           </div>
 <?php
 }
+else
+{
+  ?><em>AboutMe</em><?php
+}
 
 ?>
 

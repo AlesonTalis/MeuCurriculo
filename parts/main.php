@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- TITLE -->
-  <title>Exemplo de Curriculo</title>
+  <title><?php echo GetUserName(1); ?> Curriculo</title>
   <!-- STYLESHEET -->
   <link rel="stylesheet" href="css/font-awesome.css">
   <link rel="stylesheet" href="css/colors.css">
